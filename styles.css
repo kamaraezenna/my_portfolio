@@ -535,6 +535,10 @@ body {
     width: 20px;
 }
 
+.contact-item span {
+    color: white;
+}
+
 .contact-buttons {
     display: flex;
     gap: 1rem;
