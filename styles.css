@@ -236,23 +236,18 @@ body {
     height: 300px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--accent-color), var(--secondary-color));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 8rem;
-    color: var(--primary-color);
     box-shadow: var(--shadow-heavy);
     animation: pulse 2s infinite;
     overflow: hidden;
-    padding: 8px;
+    position: relative;
 }
 
 .profile-photo {
-    width: 284px;
-    height: 284px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    display: block;
+    object-position: center;
 }
 
 /* About Section */
